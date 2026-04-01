@@ -22,8 +22,6 @@ async function getWeather() {
     }
 
     const data = await response.json();
-
-    // ✅ Correct structure for WeatherAPI
     const name = data.location.name;
     const temp = data.current.temp_c;
     const feels = data.current.feelslike_c;
