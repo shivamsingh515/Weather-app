@@ -1,17 +1,42 @@
 body {
   font-family: Arial;
   text-align: center;
-  background: #222;
+  background: #222; /* Default background */
   color: white;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: background-image 0.5s ease-in-out;
+  min-height: 100vh;
+  margin: 0;
+  padding: 20px;
 }
 
 .container {
   margin-top: 100px;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 40px;
+  border-radius: 15px;
+  display: inline-block;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
 }
 
 input, button {
   padding: 15px;
   margin: 15px;
+  border: none;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #0056b3;
 }
 
 #result {
