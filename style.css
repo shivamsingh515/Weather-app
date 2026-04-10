@@ -1,7 +1,7 @@
 body {
   font-family: Arial;
   text-align: center;
-  background: #222; /* Default background */
+  background: #222; 
   color: white;
   background-size: cover;
   background-position: center;
@@ -27,18 +27,15 @@ input, button {
   border: none;
   border-radius: 5px;
 }
-
 button {
   background-color: #007bff;
   color: white;
   cursor: pointer;
   font-weight: bold;
 }
-
 button:hover {
   background-color: #0056b3;
 }
-
 #result {
   margin-top: 20px;
   font-size: 19px;
